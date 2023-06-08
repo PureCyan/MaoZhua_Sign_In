@@ -12,7 +12,7 @@ args = parser.parse_args()
 browser = login("https://maozhua.org/", args.pd, args.acc)
 
 # 签到
-#sign(browser, "https://maozhua.org/mission/today")
+sign(browser, "https://maozhua.org/mission/today")
 
 # 评论(需要修改)
 # links = get_links("https://maozhua.org/tags")

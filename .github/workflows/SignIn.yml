@@ -24,7 +24,7 @@ jobs:
 
       - name: "准备依赖"
         run: |
-          pip install selenium bs4
+          pip install selenium bs4 lxml requests 
       
       - name: "签到"
         run: |

@@ -17,4 +17,5 @@ browser = login("https://maozhua.org/", args.pd, args.acc)
 # 评论
 links = get_links("https://maozhua.org/tags")
 random_link = random_links(links)
-comment(browser, random_link)
+for element in random_link:
+  comment(browser, element)

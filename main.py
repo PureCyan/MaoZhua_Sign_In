@@ -17,4 +17,4 @@ sign(browser, "https://maozhua.org/mission/today")
 # 评论
 links = get_links("https://maozhua.org/tags")
 random_link = random_links(links)
-comment(random_link)
+comment(browser, random_link)
